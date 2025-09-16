@@ -50,8 +50,8 @@ Users can preview the processed video and save it in MP4 format. The app also al
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd vintage-video-app
+git clone https://github.com/Ayushpageni/Vintage-Effect.git
+cd Vintage-Effect
 ```
 
 2. Install dependencies:
@@ -60,11 +60,6 @@ cd vintage-video-app
 pip install opencv-python pillow numpy
 ```
 
-3. **Optional:** Install `ffmpeg` for audio merging:
-
-- **Windows:** [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
-- **macOS:** `brew install ffmpeg`
-- **Linux:** `sudo apt install ffmpeg`
 
 ---
 
@@ -73,7 +68,7 @@ pip install opencv-python pillow numpy
 1. Run the app:
 
 ```bash
-python vintage_video_app.py
+python app.py
 ```
 
 2. Click **📁 Upload Video** to select a video file.
@@ -87,8 +82,8 @@ python vintage_video_app.py
 ## File Structure
 
 ```
-vintage-video-app/
-├── vintage_video_app.py   # Main Python script
+Vintage-Effect/
+├── app.py   # Main Python script
 ├── README.md              # Project documentation
 └── requirements.txt       # Optional: Python dependencies
 ```
