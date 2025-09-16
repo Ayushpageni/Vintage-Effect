@@ -1,2 +1,29 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
 venv/
-.gitignore/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# Output videos or temp files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.tmp
